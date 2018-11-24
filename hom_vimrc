@@ -1,0 +1,20 @@
+set nu
+syntax on
+set cursorline
+set showcmd
+set tabstop=4
+set autoindent
+set smartindent
+set backspace=indent,eol,start
+
+let g:winManagerWindowLayout='FileExplorer'
+nmap wm :WMToggle<cr>
+
+func! CompilerRun()
+	exec "w"
+	if &filetype=='cpp'
+			exec "!g++ % -o %<"
+			exec "!./%<"
+	endif
+endfunc
+map <F5> :call CompilerRun()<cr>
