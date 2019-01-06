@@ -1,0 +1,220 @@
+    1  vi /etc/locale.gen
+    2  locale.gen
+    3  locale-gen
+    4  cd /etc
+    5  ls
+    6  rm localtime 
+    7  ln -s /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
+    8  hwclock --systohc --utc
+    9  echo MyArch > /etc/hostname
+   10  vi hosts
+   11  wifi-menu
+   12  pacman -S wpa_supplicant dialog
+   13  pacman -S grub
+   14  pacman -S grub-efi-x86_64
+   15  pacman -S efibootmgr
+   16  grub-install --target=x86_64-efi --efi-diretory=/boot/efi --bootloader-id=grub
+   17  grub-install --target=x86_64-efi --efi-directory=/boot/efi --bootloader-id=grub
+   18  passwd
+   19  exit
+   20  grub-install
+   21  grub-install --target=x86_64-efi --efi-directory=/boot/efi --bootloader-id=grub
+   22  grub-mkconfig -o /boot/grub/grub.cfg
+   23  exit
+   24  ls
+   25  ll
+   26  ls -al
+   27  wifi-menu
+   28  pacman -Syu
+   29  pacman -Sy vim
+   30  pacman -Sy git
+   31  git clone https://github.com/wffett/wffett_config.git
+   32  cd wffett_config/
+   33  ls
+   34  cp hom_bashrc.sh ../.bashrc
+   35  cd ..
+   36  ls
+   37  source .bashrc
+   38  ls
+   39  ll
+   40  vim .profile
+   41  pacman -S xf86-video-intel
+   42  pacman -S xorg-xinit
+   43  pacman -S xorg-server
+   44  pacman -S xorg-server
+   45  pacman -S xorg-server
+   46  pacman -S sddm sddm-kcm
+   47  pacman -S sddm sddm-kcm > sddm
+   48  systemctl enable sddm
+   49  pacman -S plasma-desktop
+   50  pacman -S plasma-desktop
+   51  pacman -S plasma-desktop > plasma-desktop
+   52  pacman -S kde
+   53  pacman -S kde-applications
+   54  ls
+   55  pacman -S kde-applications > kde-applications
+   56  vim kde-applications 
+   57  ls
+   58  pacman -S kdebase > kdebase
+   59  pacman -S networkmanager plasma-nm
+   60  systemctl enable NetworkManager
+   61  reboot
+   62  useradd -m -g users -G wheel -s /bin/bash wffett
+   63  passwd wffett
+   64  visudo
+   65  pacman -S wqy-microhei
+   66  pacman -S firefox
+   67  pacman -S now-dock
+   68  pacman -S nowdock
+   69  pacman -S alsa-utils pulseaudio pulseaudio-alsa
+   70  systemctl enable pulseaudio
+   71  pacman -S fcitx fcitx-im kcm-fcitx fcitx-googlepinyin
+   72  cd /etc
+   73  ls
+   74  vim locale.gen
+   75  locale-gen
+   76  ls
+   77  poweroff
+   78  qtconfig
+   79  pacman -S fcitx fcitx-im kcm-fcitx fcitx-googlepinyin
+   80  pacman -S fcitx-im
+   81  ls
+   82  pacman -Syu
+   83  pacman -
+   84  pacman -S qt4
+   85  pacman -S qt5-base
+   86  pacman -S qt4-base
+   87  pacman -S plasma-pa
+   88  pacman -Rs konqueror
+   89  pacman -S kde-l10n-zh_cn
+   90  pacman -S kde-l10n
+   91  pacman -Ss kde-l10n
+   92  pacman -Rs konqueror
+   93  exit
+   94  cp .bashrc /home/wffett/
+   95  exit
+   96  pacman -S qtcreator
+   97  pacman -S fuse
+   98  pacman -Ss qt-opensource
+   99  pacman -Sy
+  100  pacman -Ss qt5
+  101  pacman -S build-essential
+  102  pacman -S cmake
+  103  pacman -S wiznote
+  104  panman -Ss xmind
+  105  pacman -Ss xmind
+  106  vim /etc/pacman.conf 
+  107  pacman -Sy
+  108  cd /etc
+  109  ls
+  110  vim pacman.conf 
+  111  pacman -Sy
+  112  pacman -Syu
+  113  exit
+  114  pacman -S okular
+  115  lspci
+  116  pacman -S xf86-video-nouveau
+  117  reboot
+  118  cd /etc
+  119  ls
+  120  vim xattr.conf 
+  121  cd xdg
+  122  ls
+  123  cd ..
+  124  xrandr
+  125  pacman -S xrandr
+  126  pacman -S xorg-xrandr
+  127  xrandr
+  128  xrandr --listproviders
+  129  cvt
+  130  lxrandr
+  131  pacman -S lxrandor
+  132  pacman -Ss lxrandor
+  133  pacman -S i3
+  134  i3
+  135  i3-wm
+  136  pacman -Rs i3
+  137  pacman -Ss lxrandr
+  138  pacman -S lxrandr
+  139  lxrandr
+  140  reboot
+  141  pacman -Syu
+  142  pacnam -Sy plasma
+  143  pacman -Sy plasma
+  144  reboot
+  145  pacman -S rar
+  146  lxrande
+  147  lxrandr 
+  148  pacman -Rs lxrandr
+  149  pacman -Rs xrandr
+  150  python
+  151  ls /usr/bin
+  152  cd /usr/bin
+  153  ll
+  154  ll
+  155  cd /
+  156  ls
+  157  ll
+  158  exit
+  159  history
+  160  pacman -Syu
+  161  dmesg | grep microcode
+  162  dmesg
+  163  dmesg | more
+  164  pacman -Sy intel-ucode
+  165  grub-mkconfig -o /boot/grub/grub.cfg
+  166  reboot
+  167  dmesg | greb microcode
+  168  dmesg | grep microcode
+  169  pacman -Sy Gvim
+  170  pacman -S libreoffice
+  171  exit
+  172  pacman -S xshell
+  173  pacman -Ss xshell
+  174  pacman -Ss ssh
+  175  pacman -S ssh
+  176  pacman -S openssh
+  177  ssh
+  178  pacman -S unrar
+  179  pacman -Sy
+  180  pacman -Syu
+  181  pacma -Qtdq
+  182  pacman -Qtdq
+  183  pacman -Qt
+  184  pacman -Qtd
+  185  pacman -Sy vscode
+  186  pacman -Sy code
+  187  pacman -Syu
+  188  ls
+  189  git clone https://github.com/wffett/myctp
+  190  ls
+  191  cd myctp/
+  192  ls
+  193  make
+  194  ls
+  195  ./main.out 
+  196  ls
+  197  make clean
+  198  cd ..
+  199  ls
+  200  rm -rf myctp/
+  201  ls
+  202  exit
+  203  pacman -Syu
+  204  pacman -Sy bluedevil
+  205  pacman -Sy bluez
+  206  pacman -Sy bluez-utils
+  207  systemctl status bluetooth.service
+  208  systemctl start bluetooth
+  209  systemctl status bluetooth.service
+  210  systemctl enable bluetooth.service
+  211  exit
+  212  pacman -Syu
+  213  pacman -Syu
+  214  exit
+  215  pacman -Sy unzip
+  216  exi
+  217  exit
+  218  pacman -Sy processing
+  219  history
+  220  history > /home/wffett/root_history.txt
