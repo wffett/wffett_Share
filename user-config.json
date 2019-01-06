@@ -1,0 +1,18 @@
+{
+		"server" : "jp01.longlongtimenosee.com",
+		"server_ipv6": "::",
+		"server_port" : 32927,
+		"local_address": "127.0.0.1",
+		"local_port":1080,
+		"password" : "s7y2s8LTc9",
+		"method" : "rc4-md5",
+		"protocol" : "origin",
+		"protocolparam" : "",
+		"obfs" : "plain",
+		"obfsparam" : "",
+		"remarks_base64" : "W-aXpeacrDFdOlAyUOS4i-i9veWwgeWPtw",
+		"group" : "wffett",
+		"enable" : true,
+		"udp_over_tcp" : false,
+		"latency" : -2
+}
