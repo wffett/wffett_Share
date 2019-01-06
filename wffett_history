@@ -1,0 +1,396 @@
+    1  pacman -S wqy-microhei
+    2  sudo -S wqy-microhe
+    3  sudo -S wqy-microhei
+    4  exit
+    5  su -
+    6  vim .xprofile
+    7  source .xprofile 
+    8  su -
+    9  su -
+   10  ls
+   11  ll
+   12  ls -al
+   13  vim .bashrc
+   14  su -
+   15  ls
+   16  ll
+   17  ls
+   18  ls -an
+   19  vim .bashrc
+   20  source .bashrc 
+   21  ll
+   22  vim .xprofile 
+   23  source .xprofile 
+   24  git
+   25  su -
+   26  ls
+   27  chmod +x WizNote-2.5.9-x86_64.AppImage 
+   28  su-
+   29  su -
+   30  source .xprofile 
+   31  fcitx
+   32  su -
+   33  su -
+   34  exit
+   35  su -
+   36  lspci
+   37  su -
+   38  i3
+   39  su - 
+   40  xrandr
+   41  xrandr --setprovideroutputsource 1 0
+   42  xrandr --auto
+   43  su -
+   44  su -
+   45  lxrandr
+   46  lxrandr
+   47  lxrandr
+   48  lxrandr
+   49  lxrandr
+   50  lxrandr
+   51  ls
+   52  g++ testqt.cpp 
+   53  ./a.out 
+   54  g++ testqt.cpp 
+   55  ./a.out 
+   56  ./a.out 
+   57  g++ testqt.cpp 
+   58  ./a.out 
+   59  su -
+   60  lxrandr
+   61  su -
+   62  efivar -l
+   63  su -
+   64  su -
+   65  ls
+   66  ll
+   67  vim .xprofile 
+   68  vim .bashrc
+   69  cmake
+   70  git clone https://github.com/wffett/json-tutorial
+   71  ll
+   72  cd .kde4/
+   73  ls
+   74  cd ..
+   75  ll
+   76  ll
+   77  vim .bashrc
+   78  cd json-tutorial/
+   79  l
+   80  ls
+   81  su -
+   82  su -
+   83  cmake
+   84  ls
+   85  cmake --help
+   86  ll
+   87  cd .config
+   88  ls
+   89  cd ..
+   90  ls
+   91  ll
+   92  cd .kde4/
+   93  ls
+   94  cd /
+   95  ls
+   96  su -
+   97  su -
+   98  su -
+   99  su -
+  100  su -
+  101  ll
+  102  ll
+  103  vim .bashrc
+  104  kde
+  105  ssh
+  106  su -
+  107  ll
+  108  vim .face
+  109  ll
+  110  cd .kde4
+  111  ls
+  112  cd share/
+  113  ls
+  114  cd apps/
+  115  ls
+  116  cd color-schemes/
+  117  ls
+  118  cd ~
+  119  ls
+  120  ll
+  121  git clone https://github.com/wffett/wffett_conifg
+  122  git clone https://github.com/wffett/wffett_config
+  123  ll
+  124  ls
+  125  cd wffett_config/
+  126  ls
+  127  cd ..
+  128  ls
+  129  rm winmanager.zip 
+  130  ls
+  131  vim
+  132  ll
+  133  cd .wiznote/
+  134  ls
+  135  cd ..
+  136  ls
+  137  rm -rf wffett_config/
+  138  ls
+  139  ll
+  140  cd .pki
+  141  ls
+  142  cd ..
+  143  ls
+  144  ll
+  145  ll
+  146  cd Desktop/
+  147  ls
+  148  cd cpp
+  149  cd CPP/
+  150  ls
+  151  vim test2.cpp 
+  152  exit
+  153  su - 
+  154  git clone https://github.com/wffett/myctp
+  155  ls
+  156  cd myctp/
+  157  ls
+  158  make 
+  159  ls
+  160  ./main.out 
+  161  make clean
+  162  su -
+  163  lsmod
+  164  lsmod | grep blue*
+  165  pacman -Sy bluez
+  166  su -
+  167  exit
+  168  su -
+  169  su -
+  170  exit
+  171  ls
+  172  cd Desktop/
+  173  ls
+  174  cd CTP/
+  175  ls
+  176  cd ..
+  177  cd myctp/
+  178  ls
+  179  vim main.cpp 
+  180  vim main.cpp 
+  181  make
+  182  ./main.out
+  183  vim main.cpp 
+  184  ll
+  185  vim main.cpp 
+  186  make
+  187  ./main.out
+  188  make clean
+  189  cd ~/.cache/
+  190  ls
+  191  cd vim 
+  192  ls
+  193  cd swap/
+  194  ls
+  195  rm *
+  196  ls
+  197  cd ~/Desktop/myctp/
+  198  ls
+  199  vim main.cpp 
+  200  make
+  201  ls
+  202  ./main.out
+  203  clear
+  204  exit
+  205  make
+  206  ls
+  207  ./main.out
+  208  git pull
+  209  vim main.cpp 
+  210  make
+  211  ./main.out
+  212  ls
+  213  make clean
+  214  ls
+  215  vim custommdspi.cpp 
+  216  vim main.cpp
+  217  ls
+  218  unzip SnakeFusion-master.zip 
+  219  pacman -Sy uzip
+  220  sudo -
+  221  su -
+  222  ls
+  223  unzip SnakeFusion-master.zip 
+  224  ls
+  225  su -
+  226  su -
+  227  ls
+  228  cd sketchbook/
+  229  ls
+  230  ll
+  231  cd sketch_181230a/
+  232  ls
+  233  cmake
+  234  exit
+  235  su - 
+  236  ls
+  237  vim root_history.txt 
+  238  ls
+  239  cd Desktop/
+  240  ls
+  241  ll
+  242  cd /usr/share/application
+  243  cd /usr/share/applications
+  244  ls
+  245  ll
+  246  vim %F
+  247  exit
+  248  pacman -Syu
+  249  su -
+  250  ls
+  251  git clone
+  252  git clone https://github.com/wffett/wffett_Share
+  253  ls
+  254  ls
+  255  cd wffett_Share/
+  256  ls
+  257  cd ..
+  258  mv kde-applications kdebase plasma-desktop root_history.txt sddm ./wffett_Share/
+  259  ls
+  260  cd Desktop/
+  261  ls
+  262  cd ..
+  263  ls
+  264  cd wffett_Share/
+  265  git status
+  266  mkdir installed_app
+  267  ls
+  268  mv kdebase kde-applications sddm plasma-desktop installed_app/
+  269  ls
+  270  vim hom_vimrc 
+  271  git add .
+  272  git commit -m "add history"
+  273  git status
+  274  git remote
+  275  git push
+  276  ls
+  277  exit
+  278  ls
+  279  ./0myctp 
+  280  ls
+  281  ./0myctp 
+  282  ls
+  283  ./0myctp 
+  284  ./0myctp 
+  285  ls
+  286  ./0myctp 
+  287  ./0myctp 
+  288  ./0myctp 
+  289  exit
+  290  ./0myctp 
+  291  su -
+  292  su -
+  293  git status
+  294  git add .
+  295  git status
+  296  git commit -m "add install"
+  297  git config --globall user.email "wangffett@gmail.com"
+  298  git config --global user.email "wangffett@gmail.com"
+  299  git config --global user.name "wffett"
+  300  git commit -m "add install"
+  301  git status
+  302  git push
+  303  ls
+  304  git pull
+  305  ls
+  306  cd ..
+  307  ls
+  308  git clone https://github.com/shadowsocksrr/shadowsocksr.git
+  309  ls
+  310  cd shadowsocksr/
+  311  ls
+  312  ./initcfg.sh 
+  313  ls
+  314  git status
+  315  cp ../wffett_Share/user-config.json ./
+  316  ls
+  317  git status
+  318  vim user-config.json 
+  319  cd shadowsocks/
+  320  ls
+  321  ./local.py
+  322  cd ~
+  323  ls
+  324  cd wffett_Share/
+  325  ls
+  326  git pull
+  327  cp gui-config.json ../shadowsocksr/
+  328  cd ../shadowsocksr/
+  329  ls
+  330  mv gui-config.json user-config.json 
+  331  cd shadowsocks/
+  332  ls
+  333  ls
+  334  ./local.py
+  335  cd ../
+  336  ls
+  337  vim user-config.json 
+  338  cd shadowsocks/
+  339  ls
+  340  ./local.py 
+  341  ls
+  342  ./0myctp 
+  343  strace ./0myctp 
+  344  su -
+  345  ls
+  346  strace ./0myctp 
+  347  cd ..
+  348  ls
+  349  cd myctp/
+  350  ls
+  351  strace
+  352  strace main.out
+  353  strace ./main.out
+  354  vim makefile
+  355  make
+  356  cd CTP_API_64/
+  357  ls
+  358  mv libthostmduserapi.so thostmduserapi.so 
+  359  ls
+  360  cd ..
+  361  ls
+  362  ls
+  363  make
+  364  ./main.out
+  365  make clean
+  366  make 
+  367  ./main.out 
+  368  ls
+  369  make clean
+  370  ls
+  371  vim makefile
+  372  cd CTP_API_64/
+  373  ls
+  374  cp thostmduserapi.so libthostmduserapi.so 
+  375  cd ..
+  376  ls
+  377  make
+  378  ls
+  379  ./main.out 
+  380  ./main.out 
+  381  ls
+  382  ./main.out 
+  383  ls
+  384  make clean
+  385  git pull
+  386  ls
+  387  make
+  388  ls
+  389  ./main.out
+  390  ls
+  391  ./main.out
+  392  strace ./main.out
+  393  ./main.out 
+  394  ping www.baidu.com
+  395  history
+  396  history > wffett_history
